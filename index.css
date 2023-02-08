@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+} 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -25,7 +29,8 @@
 
 .heading-main{
     font-family: 'Poppins';
-    left: 2%;
+    width: 80%;
+    margin: 0rem 2rem;
     position: relative;
 }
 
@@ -54,9 +59,11 @@
 
 .card{
     margin: 1%;
+    width: 15%;
 }
 
 .card-img{
+    width: 100%;
     margin-top: 3%;
 }
 
@@ -165,7 +172,7 @@
 
 .foot{
     font-family: 'Raleway';
-    margin: 10px;
+    margin: 0px;
 }
 
 ul{
