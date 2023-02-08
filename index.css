@@ -1,0 +1,177 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.home-icon {
+    width: 25%;
+    padding-top: 4px;
+}
+
+#h-6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.heading-main{
+    font-family: 'Poppins';
+    left: 2%;
+    position: relative;
+}
+
+.first-word{
+    font-size: 400%;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    color: rgb(141, 140, 140);
+
+}
+
+.second-word{
+    font-size: 400%;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+.home-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    margin: 1%;
+}
+
+.card-img{
+    margin-top: 3%;
+}
+
+.list-desc{
+    display: flex;
+    font-family: 'Poppins';
+    margin-top: 7%;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.num{
+    font-size: 600%;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    color: rgb(202, 202, 202);
+}
+
+.desc{
+    width: 50%;
+    font-weight: 100;
+}
+
+.form-heading{
+    font-size: 400%;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+    color: rgb(141, 140, 140);
+    font-family: 'Poppins';
+    margin-left: 6%;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 30%;
+    font-family: 'Poppins';
+    font-weight: 100;
+    /* display: flex; */
+}
+
+.input-box{
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    padding: 10px;
+}
+
+.send-btn{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.main-foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.links{
+    color: white;
+}
+
+.address{
+    color: white;
+}
+
+
+.links{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px;
+}
+
+.address{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 50px;
+}
+
+
+
+.end-foot{
+    display: flex;
+    /* border-top: 0.1px solid white; */
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.foot{
+    font-family: 'Raleway';
+    margin: 10px;
+}
+
+ul{
+  list-style: none;  
+}
+
+li{
+    padding-bottom: 10px;
+}
